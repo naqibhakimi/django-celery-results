@@ -41,6 +41,6 @@ class Migration(migrations.Migration):
             ),
             preserve_default=False,
         ),
-        migrations.RunPython(copy_date_done_to_date_created,
-                             reverse_copy_date_done_to_date_created),
+#         migrations.RunPython(copy_date_done_to_date_created,
+#                              reverse_copy_date_done_to_date_created),
     ]
